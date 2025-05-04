@@ -1,6 +1,6 @@
 # GitHub Actions Cache Cleanup
 
-A GitHub Action to automatically delete unused GitHub Actions caches.
+GitHub Action for automatic cleanup of unused GitHub Actions caches. Removes caches from closed pull requests and caches from the main branch that haven't been accessed for a configurable time period. Helps reduce storage usage and improve build performance by keeping the cache environment clean.
 
 ## What it does
 
@@ -28,7 +28,7 @@ jobs:
     
     steps:
       - name: Delete unused caches
-        uses: [your-username]/cache-cleanup-action@v1
+        uses: FrankBurmo/cache-cleanup-action@v1
         with:
           # Optional: Change number of days before main branch caches are deleted (default: 7)
           main-branch-retention-days: '14'
