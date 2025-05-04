@@ -7,6 +7,11 @@ GitHub Action for automatic cleanup of unused GitHub Actions caches. Removes cac
 - Deletes caches from closed Pull Requests
 - Deletes caches from the main branch that haven't been used for X days (default: 7)
 
+## Sample run
+
+![image](https://github.com/user-attachments/assets/ff0e5605-86d8-4834-bd5c-c3cc6dd86673)
+
+
 ## How to use
 
 Create a workflow file in your repository (e.g. `.github/workflows/cleanup-cache.yml`):
@@ -32,5 +37,3 @@ jobs:
         with:
           # Optional: Change number of days before main branch caches are deleted (default: 7)
           main-branch-retention-days: '14'
-
-![image](https://github.com/user-attachments/assets/3923cae6-ec31-4bc3-ac16-b371e267c8fa)
