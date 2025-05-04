@@ -28,7 +28,7 @@ jobs:
     
     steps:
       - name: Delete unused caches
-        uses: FrankBurmo/cache-cleanup-action@v1
+        uses: FrankBurmo/cache-cleanup-action@v1.0.0
         with:
           # Optional: Change number of days before main branch caches are deleted (default: 7)
           main-branch-retention-days: '14'
