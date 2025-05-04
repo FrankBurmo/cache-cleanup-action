@@ -1,6 +1,7 @@
 name: 'Cache Cleanup Action'
 description: 'Removes unused GitHub Actions caches based on PR status and age'
 author: 'Frank Finnøy Burmo'
+icon: circle
 
 inputs:
   main-branch-retention-days:
