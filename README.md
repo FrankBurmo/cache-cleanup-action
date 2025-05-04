@@ -32,3 +32,5 @@ jobs:
         with:
           # Optional: Change number of days before main branch caches are deleted (default: 7)
           main-branch-retention-days: '14'
+
+![image](https://github.com/user-attachments/assets/3923cae6-ec31-4bc3-ac16-b371e267c8fa)
