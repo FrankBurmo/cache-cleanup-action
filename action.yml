@@ -19,7 +19,7 @@ runs:
   using: 'composite'
   steps:
     - name: Delete unused caches
-      uses: actions/github-script@v8
+      uses: actions/github-script@v9
       with:
         github-token: ${{ inputs.github-token }}
         script: |
